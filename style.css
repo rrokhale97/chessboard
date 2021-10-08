@@ -1,0 +1,16 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+.chess-board {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.chess-board td {
+  border: 1px solid;
+  width: 4em;
+  height: 4em;
+}
+.chess-board .dark {
+  background: #000;
+}
